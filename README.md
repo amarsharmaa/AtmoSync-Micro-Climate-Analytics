@@ -1,54 +1,85 @@
 # AtmoSync: Micro-Climate Arbitrage Analytics
 
-Welcome to the **AtmoSync** project repository! This project is developed as part of the Data Analytics Internship Program at Infotact Solutions.
-
 ## Project Overview
 
-- **Project Name:** AtmoSync: Micro-Climate Arbitrage Analytics
-- **Domain:** Data Analytics
-- **Role:** Data Associate L1 Intern
-- **Organization:** Infotact Solutions
-- **Team Size:** 4 Members
+AtmoSync is a Python-based weather analytics dashboard developed using Streamlit. It provides interactive visualizations, location-wise weather comparisons, and live weather information for Indian cities.
 
-## Project Objective
+The project aims to make micro-climate data easier to explore, compare, and understand.
 
-The objective of this project is to collect, clean, analyze, and visualize climate and weather data, generate actionable insights, create interactive dashboards, and document the entire workflow according to industry standards.
+## Key Features
 
-## Repository Structure
+- Interactive weather analytics dashboard
+- Temperature and humidity visualizations
+- Location-wise weather comparison
+- Temperature heatmap
+- Average temperature and humidity metrics
+- Live weather search for Indian cities
+- Real-time comparison of two locations
+- Downloadable weather dataset in CSV format
+
+## Technologies Used
+
+- Python
+- Streamlit
+- Pandas
+- Plotly
+- NumPy
+- Requests
+- Open-Meteo API
+- GitHub
+
+## Project Structure
 
 ```text
-AtmoSync/
-│
+AtmoSync-Micro-Climate-Analytics/
 ├── data/
 │   ├── raw/
+│   │   └── extracted_data.csv
 │   └── processed/
-│
+│       └── Cleaned_Weather_Data.csv
 ├── notebooks/
 ├── src/
+│   └── app.py
 ├── visualizations/
 ├── reports/
 ├── presentation/
+├── requirements.txt
 └── README.md
 ```
 
-## Folder Description
+## Installation and Setup
 
-- **data/raw:** Original datasets.
-- **data/processed:** Cleaned and processed datasets.
-- **notebooks:** Jupyter notebooks and exploratory analysis.
-- **src:** Source code and reusable scripts.
-- **visualizations:** Charts, graphs, and visual outputs.
-- **reports:** Project documentation and reports.
-- **presentation:** Final project presentation.
+1. Clone the GitHub repository.
+2. Install the required Python libraries:
 
-## Team Members
+```bash
+pip install -r requirements.txt
+```
 
-This project is collaboratively developed by a four-member internship team.
+3. Run the Streamlit application:
 
-## Project Deliverables
+```bash
+streamlit run src/app.py
+```
 
-- Source Code
-- Project Documentation
-- Project Report
-- Presentation (PPT)
-- Final Project Demonstration, if applicable
+4. Open the local URL displayed in the terminal.
+
+## Data Sources
+
+- Weather datasets collected and processed during the project
+- Open-Meteo API for live weather information
+
+## Live Dashboard
+
+The AtmoSync dashboard is deployed using Streamlit Community Cloud.
+
+## Future Improvements
+
+- Historical weather trend analysis
+- Weather forecasting
+- Additional geographical visualizations
+- Advanced micro-climate insights
+
+## Project Type
+
+Internship Project — Weather Data Analytics and Visualization
