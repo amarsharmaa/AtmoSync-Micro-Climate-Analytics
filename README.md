@@ -70,6 +70,7 @@ streamlit run src/app.py
 - Open-Meteo API for live weather information
 
 ## Live Dashboard
+https://atmosync-micro-climate-analytics-scb9dwyed2myhtwu3tpb7x.streamlit.app/?utm_source=chatgpt.com
 
 The AtmoSync dashboard is deployed using Streamlit Community Cloud.
 
